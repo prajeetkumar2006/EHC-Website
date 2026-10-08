@@ -15,11 +15,13 @@ export function Members() {
       name: "Dr. K. Hariharan",
       designation: "Professor and Dean (Industry Institute Interaction)",
       image: "https://i.ibb.co/1fC5BcG3/khhece.jpg",
+          dept_year: "Department of ECE"
     },
     {
       name: "Dr. M. Senthilarasi",
       designation: "Assistant Professor",
       image: "https://i.ibb.co/S74XFxGr/Screenshot-2026-03-03-005830.png",
+      dept_year: "Department of ECE"
     },
   ];
   
@@ -28,26 +30,31 @@ export function Members() {
       name: "Hirthik Bala U",
       designation: "President",
       image: "https://i.ibb.co/HLX7Fb3B/Whats-App-Image-2026-03-02-at-7-35-50-PM-6.jpg",
+      dept_year: "ECE - 4th year"
     },
     {
       name: "Visves T R",
       designation: "Vice President",
       image: "https://i.ibb.co/yB6rfqX6/Whats-App-Image-2026-03-02-at-7-35-50-PM-9.jpg",
+      dept_year: "ECE - 4th year"
     },
     {
       name: "Shivani B",
       designation: "General Secretary",
       image: "https://i.ibb.co/7djxQXKh/Whats-App-Image-2026-03-02-at-7-35-50-PM-2.jpg",
+      dept_year: "ECE - 4th year"
     },
     {
       name: "Dheepika R",
       designation: "Executive Coordinator",
       image: "https://i.ibb.co/GvtL7XLn/Whats-App-Image-2026-03-02-at-7-35-49-PM.jpg",
+      dept_year: "ECE - 4th year"
     },
     {
       name: "Vetrivelan B R",
       designation: "Executive Coordinator",
       image: "https://i.ibb.co/Q3wY6VBx/Whats-App-Image-2026-03-02-at-7-35-50-PM-7.jpg",
+      dept_year: "ECE - 4th year"
     }   
   ];
 
@@ -266,6 +273,9 @@ export function Members() {
                 />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{member.name}</h3>
+              <p className="text-sm text-gray-500 mt-1">
+  {member.dept_year}
+</p>
               <p className="text-lg text-blue-600 font-medium">{member.designation}</p>
             </div>
           ))}
@@ -290,7 +300,11 @@ export function Members() {
                 />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{member.name}</h3>
+              <p className="text-sm text-gray-500 mt-1">
+  {member.dept_year}
+</p>
               <p className="text-lg text-blue-600 font-medium">{member.designation}</p>
+              
             </div>
           ))}
         </div>
@@ -314,13 +328,14 @@ export function Members() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
+                <p className="text-sm text-gray-500 mt-1">
+  {member.dept_year}
+</p>
                 <p className="text-gray-600">
   {member.designation}
 </p>
 
-<p className="text-sm text-gray-500 mt-1">
-  {member.dept_year}
-</p>
+
               </div>
             ))}
           </div>
@@ -348,14 +363,15 @@ export function Members() {
           <h3 className="text-xl font-semibold text-gray-900 mb-1">
             {member.name}
           </h3>
+          <p className="text-sm text-gray-500 mt-1">
+  {member.dept_year}
+</p>
 
           <p className="text-gray-600">
   {member.designation}
 </p>
 
-<p className="text-sm text-gray-500 mt-1">
-  {member.dept_year}
-</p>
+
         </div>
       ))}
     </div>
