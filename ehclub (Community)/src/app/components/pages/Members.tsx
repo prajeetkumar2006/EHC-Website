@@ -54,25 +54,26 @@ export function Members() {
   const officeBearers: Member[] = [
     
     {
-      name: "Sundharamahalingam N",
-      designation: "Organising Team",
-      image: "https://i.ibb.co/m5CzbVMr/EH-Club-PPT-26-27-2.png",
-      dept_year: "MECT - 3rd year"
-    },
-    
-    {
       name: "Rathika V",
       designation: "Organising Team",
       image: "https://i.ibb.co/Tqpjq4f3/EH-Club-PPT-26-27-1.png",
       dept_year: "EEE - 3rd year"
-
     },
-        {
+    
+    {
       name: "Rohith R",
       designation: "Organising Team",
       image: "https://i.ibb.co/b508g2xS/EH-Club-PPT-26-27.png",
       dept_year: "ECE - 3rd year"
     },
+  
+    {
+      name: "Sundharamahalingam N",
+      designation: "Organising Team",
+      image: "https://i.ibb.co/m5CzbVMr/EH-Club-PPT-26-27-2.png",
+      dept_year: "MECT - 3rd year"
+    },
+      
     
     {
       name: "Devadharshini L",
@@ -101,17 +102,18 @@ export function Members() {
       image: "https://i.ibb.co/7tWH8yP4/EH-Club-PPT-26-27-12.png",
       dept_year: "ECE - 3rd year"
     },
-        {
-      name: "Ponmangai A",
-      designation: "Design Team",
-      image: "https://i.ibb.co/ksyfzwtY/EH-Club-PPT-26-27-14.png",
-      dept_year: "ECE - 3rd year"      
-    },
-    {
+      {
+    
       name: "Henthika P",
       designation: "Design Team",
       image: "https://i.ibb.co/fY3yLDGf/EH-Club-PPT-26-27-13.png",
       dept_year: "ECE - 3rd year"
+    },
+    {
+      name: "Ponmangai A",
+      designation: "Design Team",
+      image: "https://i.ibb.co/ksyfzwtY/EH-Club-PPT-26-27-14.png",
+      dept_year: "ECE - 3rd year" 
     },
 
         {
@@ -120,17 +122,18 @@ export function Members() {
       image: "https://i.ibb.co/WpgBHqh9/EH-Club-PPT-26-27-23.png",
       dept_year: "ECE - 3rd year"
     },
-        {
-      name: "Tejashwar S A",
-      designation: "Social Engagement Team",
-      image: "https://i.ibb.co/bR3gLthd/EH-Club-PPT-26-27-21.png",
-      dept_year: "ECE - 3rd year"
-    },
-    {
+      {
+      
       name: "Bhuvishaa Sri M A",
       designation: "Social Engagement Team",
       image: "https://i.ibb.co/8D2Rb79j/EH-Club-PPT-26-27-22.png",
       dept_year: "EEE - 3rd year"
+    },
+    {
+      name: "Tejashwar S A",
+      designation: "Social Engagement Team",
+      image: "https://i.ibb.co/bR3gLthd/EH-Club-PPT-26-27-21.png",
+      dept_year: "ECE - 3rd year"
     },
 
     
@@ -143,22 +146,24 @@ export function Members() {
       image: "https://i.ibb.co/ycd657Vr/EH-Club-PPT-26-27-5.png",
       dept_year: "EEE - 2rd year"
     },
-        {
+      {
+        name: "Gowtham I",
+      designation: "Organising Team",
+      image: "https://i.ibb.co/1f8jBYWr/EH-Club-PPT-26-27-3.png",
+      dept_year: "ECE - 2rd year"   
+    },
+    {
       name: "Suriya A",
       designation: "Organising Team",
       image: "https://i.ibb.co/R4B5ppzk/EH-Club-PPT-26-27-4.png",
       dept_year: "ECE - 2rd year"
     },
+      
     {
-      name: "Gowtham I",
-      designation: "Organising Team",
-      image: "https://i.ibb.co/1f8jBYWr/EH-Club-PPT-26-27-3.png",
-      dept_year: "ECE - 2rd year"
-    },
-    {
-      name: "Sree Deshna A",
+     
+      name: "Mithilesh K M",
       designation: "Documentation Team",
-      image: "https://i.ibb.co/MxxBZzjS/EH-Club-PPT-26-27-11.png",
+      image: "https://i.ibb.co/Y4SyG6FJ/EH-Club-PPT-26-27-9.png",
       dept_year: "ECE - 2rd year"
     },
     
@@ -169,9 +174,9 @@ export function Members() {
       dept_year: "ECE - 2rd year"
     },
         {
-      name: "Mithilesh K M",
+       name: "Sree Deshna A",
       designation: "Documentation Team",
-      image: "https://i.ibb.co/Y4SyG6FJ/EH-Club-PPT-26-27-9.png",
+      image: "https://i.ibb.co/MxxBZzjS/EH-Club-PPT-26-27-11.png",
       dept_year: "ECE - 2rd year"
     },
       
