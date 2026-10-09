@@ -42,7 +42,7 @@ export function Members() {
       name: "Shivani B",
       designation: "General Secretary",
       //image: "https://i.ibb.co/7djxQXKh/Whats-App-Image-2026-03-02-at-7-35-50-PM-2.jpg",
-      image: "https://i.postimg.cc/vZ7fPxqj/Whats-App-Image-2026-10-09-at-2-38-45-PM.jpg",
+      image: "https://i.postimg.cc/3xb4fjj0/Whats-App-Image-2026-10-09-at-2-38-45-PM.jpg",
       dept_year: "ECE - 4th year"
     },
     {
