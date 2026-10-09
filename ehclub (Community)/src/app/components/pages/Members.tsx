@@ -231,7 +231,7 @@ export function Members() {
 
 
   const totalOfficeBearers = officeBearers.length;
-  const totalMembers = 200;
+  const totalMembers = 100+;
 
   return (
     <div className="bg-white min-h-screen">
