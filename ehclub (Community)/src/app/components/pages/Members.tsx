@@ -141,7 +141,7 @@ export function Members() {
       name: "Tejashwar S A",
       designation: "Social Engagement Team",
       image: "https://i.ibb.co/bR3gLthd/EH-Club-PPT-26-27-21.png",
-      dept_year: "ECE - 3rd year"
+      dept_year: "MECT - 3rd year"
     },
 
     
